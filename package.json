@@ -1,0 +1,31 @@
+{
+  "name": "exel-course",
+  "version": "1.0.0",
+  "description": "JS Exel Application",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexLitvinovich/exel-course.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "exel"
+  ],
+  "author": "Alex Litvinovich <sashka.litvinovich@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexLitvinovich/exel-course/issues"
+  },
+  "homepage": "https://github.com/AlexLitvinovich/exel-course#readme",
+  "private": true,
+  "devDependencies": {
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
